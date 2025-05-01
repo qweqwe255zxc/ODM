@@ -35,14 +35,6 @@
     margin-top: 10px;
 }
 
-.cover-product-meta {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
-    margin-top: 10px;
-}
-
 .cover-product-price {
     font-size: 36px;
     font-weight: 400;
@@ -86,10 +78,6 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-}
-
-.hits-header {
-    text-align: left;
 }
 
 .hits-content {
@@ -146,6 +134,7 @@
     background-color: rgba(0, 0, 0, 10%);
     transition: 0.2s;
 }
+
 .add-to-bag-btn:active {
     background-color: rgba(0, 0, 0, 5%);
     transition: 0.2s;
@@ -178,4 +167,55 @@
 
 .hits-more-text {
     font-weight: 300;
+}
+
+.about-us {
+    margin-top: 120px;
+    background-image: url(/images/index-img/about-us.png);
+    width: 100vw;
+    max-width: 100%;
+    background-size: cover;
+    background-color: #F7F7F7;
+    height: 741px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-us-content {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.about-us-block {
+    width: 660px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+
+.pay-and-delivery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.pay-and-delivery-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 43px;
+    column-gap: 45px;
+}
+.pay-and-delivery-block{
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+}
+.pay-and-delivery-block-item{
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
 }
