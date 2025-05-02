@@ -219,3 +219,16 @@
     flex-direction: column;
     row-gap: 25px;
 }
+
+.contacts {
+    margin-top: 120px;
+    background-image: url(/images/index-img/contact.png);
+    width: 100vw;
+    max-width: 100%;
+    background-size: cover;
+    background-color: #F7F7F7;
+    height: 741px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
