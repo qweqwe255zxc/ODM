@@ -1,3 +1,5 @@
+//Исчезающий хедер
+
 let lastScroll = 0;
 const defOffset = 200
 const nav_local = document.querySelector('.nav-local');
@@ -19,6 +21,8 @@ window.addEventListener('scroll', () => {
 
     lastScroll = scrollPosition();
 });
+
+//Плавный скрол
 
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', e => {

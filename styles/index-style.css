@@ -6,6 +6,7 @@
     max-width: 100%;
     height: 1127px;
     background-size: cover;
+    margin-top: 30px;
 }
 
 .cover-content {
@@ -222,13 +223,34 @@
 
 .contacts {
     margin-top: 120px;
-    background-image: url(/images/index-img/contact.png);
     width: 100vw;
     max-width: 100%;
     background-size: cover;
     background-color: #F7F7F7;
-    height: 741px;
+    /* height: 574px; */
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.contacts-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 42px;
+}
+
+.contacts-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 40px;
+}
+.contacts-text-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contacts-info{
+    font-size: 24px;
 }
