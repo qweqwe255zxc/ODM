@@ -1,33 +1,225 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TRIPPI TROPPi - Каталог</title>
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/catalog.css">
+    <link rel="shortcut icon" href="/images/main-img/TRIPPI-TROPPI.ico" type="image/x-icon">
+    <script src="/script.js" defer></script>
 </head>
+
 <body>
     <header class="header">
         <div class="header-content container">
-            <a href=""><img src="/images/main-img/logo.svg" alt="" /></a>
+            <a href="/index.html"><img src="/images/main-img/logo.svg" alt="" /></a>
             <nav class="navbar">
-                <a href="" class="navbar-item">Главная</a>
-                <a href="" class="navbar-item">Каталог</a>
+                <a href="/index.html" class="navbar-item">Главная</a>
+                <a href="/catalog.html" class="navbar-item">Каталог</a>
             </nav>
             <div class="navimg">
                 <img class="navimg-item" src="/images/main-img/Search.png" alt="" />
-                <a href=""><img src="/images/main-img/Male-User.png" alt="" /></a>
+                <a href="/register.html"><img src="/images/main-img/Male-User.png" alt="" /></a>
                 <a href=""><img src="/images/main-img/Shopping-Bag.png" alt="" /></a>
             </div>
         </div>
-        <div class="nav-local ">
-            <a href="#hits" class="navbar-item">Сезонные духи</a>
-            <a href="#about-us" class="navbar-item">О нас</a>
-            <a href="#pay-and-delivery" class="navbar-item">Доставка и оплата</a>
-            <a href="#contacts" class="navbar-item">Контакты</a>
+        <div class="nav-local">
+            <a href="#hits" class="navbar-item">Хиты</a>
+            <a href="#catalog" class="navbar-item">Товары</a>
         </div>
     </header>
     <main>
-        
+        <section class="hits container" id="hits">
+            <h2>Ароматы лета</h2>
+            <div class="hits-content">
+                <div class="main-hit">
+                    <div class="main-hit-product">
+                        <img src="/images/fragrances/JPG-le-beau-le-parfum.png" alt="" />
+                        <button class="add-to-bag-btn">
+                            <img class="add-tob-bag-img" src="/images/main-img/Shopping-Bag.png" alt="" />
+                        </button>
+                    </div>
+                    <p class="product-name">JPG Le Beau Le Parfum</p>
+                    <p class="product-price">от 9 996 ₽</p>
+                </div>
+                <div class="minor-hit">
+                    <div class="minor-hit-item">
+                        <div class="minor-hit-product">
+                            <img src="/images/fragrances/JPG-le-beau.png" alt="" />
+                            <button class="add-to-bag-btn">
+                                <img class="add-tob-bag-img" src="/images/main-img/Shopping-Bag.png" alt="" />
+                            </button>
+                        </div>
+                        <p class="product-name">JPG Le Beau</p>
+                        <p class="product-price">от 8 270 ₽</p>
+                    </div>
+                    <div class="minor-hit-item">
+                        <div class="minor-hit-product">
+                            <img src="/images/fragrances/JPG-le-beau-paradise-garden.png" alt="" />
+                            <button class="add-to-bag-btn">
+                                <img class="add-tob-bag-img" src="/images/main-img/Shopping-Bag.png" alt="" />
+                            </button>
+                        </div>
+                        <p class="product-name">JPG Le Beau Paradise Garden</p>
+                        <p class="product-price">от 7522₽</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="catalog container" id="catalog">
+            <h2>Товары</h2>
+            <div class="catalog-content">
+                <div class="filters">
+                    <div class="filters-item">
+                        <img src="/images/main-img/filters.png" alt="">
+                        <p>Фильтры</p>
+                    </div>
+                    <div class="filters-item">
+                        <p>по популярности</p>
+                        <img src="/images/main-img/down-arrow.png" alt="">
+                    </div>
+                </div>
+                <div class="catalog-products">
+                    <div class="catalog-products-item">
+                        <div class="product">
+                            <img class="product-image" src="/images/fragrances/JPG-le-beau-paradise-garden.png"
+                                alt="" />
+                            <button class="add-to-bag-btn">
+                                <img class="add-tob-bag-img" src="/images/main-img/Shopping-Bag.png" alt="" />
+                            </button>
+                        </div>
+                        <p class="product-name product-text">JPG Le Beau Paradise Garden </p>
+                        <p class="product-price product-text">от 8 270 ₽</p>
+                    </div>
+                    <div class="catalog-products-item">
+                        <div class="product">
+                            <img class="product-image" src="/images/fragrances/JPG-le-beau-paradise-garden.png"
+                                alt="" />
+                            <button class="add-to-bag-btn">
+                                <img class="add-tob-bag-img" src="/images/main-img/Shopping-Bag.png" alt="" />
+                            </button>
+                        </div>
+                        <p class="product-name product-text">JPG Le Beau Paradise Garden </p>
+                        <p class="product-price product-text">от 8 270 ₽</p>
+                    </div>
+                    <div class="catalog-products-item">
+                        <div class="product">
+                            <img class="product-image" src="/images/fragrances/JPG-le-beau-paradise-garden.png"
+                                alt="" />
+                            <button class="add-to-bag-btn">
+                                <img class="add-tob-bag-img" src="/images/main-img/Shopping-Bag.png" alt="" />
+                            </button>
+                        </div>
+                        <p class="product-name product-text">JPG Le Beau Paradise Garden </p>
+                        <p class="product-price product-text">от 8 270 ₽</p>
+                    </div>
+                    <div class="catalog-products-item">
+                        <div class="product">
+                            <img class="product-image" src="/images/fragrances/JPG-le-beau-paradise-garden.png"
+                                alt="" />
+                            <button class="add-to-bag-btn">
+                                <img class="add-tob-bag-img" src="/images/main-img/Shopping-Bag.png" alt="" />
+                            </button>
+                        </div>
+                        <p class="product-name product-text">JPG Le Beau Paradise Garden </p>
+                        <p class="product-price product-text">от 8 270 ₽</p>
+                    </div>
+                    <div class="catalog-products-item">
+                        <div class="product">
+                            <img class="product-image" src="/images/fragrances/JPG-le-beau-paradise-garden.png"
+                                alt="" />
+                            <button class="add-to-bag-btn">
+                                <img class="add-tob-bag-img" src="/images/main-img/Shopping-Bag.png" alt="" />
+                            </button>
+                        </div>
+                        <p class="product-name product-text">JPG Le Beau Paradise Garden </p>
+                        <p class="product-price product-text">от 8 270 ₽</p>
+                    </div>
+                    <div class="catalog-products-item">
+                        <div class="product">
+                            <img class="product-image" src="/images/fragrances/JPG-le-beau-paradise-garden.png"
+                                alt="" />
+                            <button class="add-to-bag-btn">
+                                <img class="add-tob-bag-img" src="/images/main-img/Shopping-Bag.png" alt="" />
+                            </button>
+                        </div>
+                        <p class="product-name product-text">JPG Le Beau Paradise Garden </p>
+                        <p class="product-price product-text">от 8 270 ₽</p>
+                    </div>
+                    <div class="catalog-products-item">
+                        <div class="product">
+                            <img class="product-image" src="/images/fragrances/JPG-le-beau-paradise-garden.png"
+                                alt="" />
+                            <button class="add-to-bag-btn">
+                                <img class="add-tob-bag-img" src="/images/main-img/Shopping-Bag.png" alt="" />
+                            </button>
+                        </div>
+                        <p class="product-name product-text">JPG Le Beau Paradise Garden </p>
+                        <p class="product-price product-text">от 8 270 ₽</p>
+                    </div>
+                    <div class="catalog-products-item">
+                        <div class="product">
+                            <img class="product-image" src="/images/fragrances/JPG-le-beau-paradise-garden.png"
+                                alt="" />
+                            <button class="add-to-bag-btn">
+                                <img class="add-tob-bag-img" src="/images/main-img/Shopping-Bag.png" alt="" />
+                            </button>
+                        </div>
+                        <p class="product-name product-text">JPG Le Beau Paradise Garden </p>
+                        <p class="product-price product-text">от 8 270 ₽</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+    <footer>
+        <div class="footer-content container">
+            <div class="footer-contacts">
+                <p class="">Email: <a
+                        href="mailto:LilFrag@gmail.com?subject=Вопрос по поводу...&body=Здравствуйте, LilFrag!%0AУ меня есть вопрос:...">LilFrag@gmail.com</a>
+                </p>
+                <p class="">Телефон: +7 999 999-99-99</p>
+                <div class="social-links">
+                    <img src="/images/main-img/Telegram.png" alt="">
+                    <img src="/images/main-img/Instagram.png" alt="">
+                    <img src="/images/main-img/VK.png" alt="">
+                </div>
+            </div>
+            <img src="/images/main-img/logo.svg" alt="">
+            <div class="footer-nav">
+                <div class="footer-nav-menu">
+                    <a href="/index.html" class="no-dec">
+                        <p class="footer-nav-label">Главная</p>
+                    </a>
+                    <a href="/index.html#hits" class="no-dec">
+                        <p class="footer-nav-menu-item">Хиты</p>
+                    </a>
+                    <a href="/index.html#about-us" class="no-dec">
+                        <p class="footer-nav-menu-item">О нас</p>
+                    </a>
+                    <a href="/index.html#pay-and-delivery" class="no-dec">
+                        <p class="footer-nav-menu-item">Доставка и оплата</p>
+                    </a>
+                    <a href="/index.html#contacts" class="no-dec">
+                        <p class="footer-nav-menu-item">Контакты</p>
+                    </a>
+                </div>
+                <div class="footer-nav-menu">
+                    <a href="/catalog.html" class="no-dec">
+                        <p class="footer-nav-label">Каталог</p>
+                    </a>
+                    <a href="#hits" class="no-dec">
+                        <p class="footer-nav-menu-item">Хиты</p>
+                    </a>
+                    <a href="#catalog" class="no-dec">
+                        <p class="footer-nav-menu-item">Товары</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>

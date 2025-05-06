@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRIPPI TROPPi - Каталог</title>
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/auth.css">
+    <link rel="shortcut icon" href="/images/main-img/TRIPPI-TROPPI.ico" type="image/x-icon">
+    <script src="/script.js" defer></script>
+</head>
+
+<body>
+    <main>
+        <div class="auth-block container">
+            <div class="auth-content">
+                <div class="auth-cover">
+                    <img class='auth-cover-logo' src="/images/main-img/logo-white.png" alt="">
+                    <div class="auth-cover-text">
+                        <img  src="/images/main-img/back-arrow-white.png" alt="">
+                        <a href="/index.html" class="no-dec">
+                            <p class="auth-cover-text-item">На главную</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="auth-form">
+                    <h2 class="form-title">Авторизация</h2>
+                    <form action="/register" method="POST">
+                        <input type="text" placeholder="Логин" required>
+                        <input type="password" placeholder="Пароль" required>
+                        <div class="terms">
+                            <input type="checkbox" class="terms-checkbox" required>
+                            <label class="form-text" for="terms">Запомнить меня</a></label>
+                        </div>
+                        <button class="form-btn" type="submit">Авторизироваться</button>
+                    </form>
+                    <p class="form-text">Нет аккаунта? <a class="form-text" href="/register.html">Создайте</a></p>
+                </div>
+            </div>
+
+        </div>
+    </main>
+</body>
+
+</html>

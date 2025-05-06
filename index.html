@@ -6,26 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>TRIPPI TROPPI - Главная</title>
     <link rel="stylesheet" href="/styles/style.css" />
-    <link rel="stylesheet" href="/styles/index-style.css" />
+    <link rel="stylesheet" href="/styles/main.css" />
+    <link rel="shortcut icon" href="/images/main-img/TRIPPI-TROPPI.ico" type="image/x-icon">
     <script src="/script.js" defer></script>
 </head>
 
 <body>
     <header class="header">
         <div class="header-content container">
-            <a href=""><img src="/images/main-img/logo.svg" alt="" /></a>
+            <a href="/index.html"><img src="/images/main-img/logo.svg" alt="" /></a>
             <nav class="navbar">
-                <a href="" class="navbar-item">Главная</a>
-                <a href="" class="navbar-item">Каталог</a>
+                <a href="/index.html" class="navbar-item">Главная</a>
+                <a href="/catalog.html" class="navbar-item">Каталог</a>
             </nav>
             <div class="navimg">
                 <img class="navimg-item" src="/images/main-img/Search.png" alt="" />
-                <a href=""><img src="/images/main-img/Male-User.png" alt="" /></a>
+                <a href="/register.html"><img src="/images/main-img/Male-User.png" alt="" /></a>
                 <a href=""><img src="/images/main-img/Shopping-Bag.png" alt="" /></a>
             </div>
         </div>
         <div class="nav-local ">
-            <a href="#hits" class="navbar-item">Сезонные духи</a>
+            <a href="#hits" class="navbar-item">Хиты</a>
             <a href="#about-us" class="navbar-item">О нас</a>
             <a href="#pay-and-delivery" class="navbar-item">Доставка и оплата</a>
             <a href="#contacts" class="navbar-item">Контакты</a>
@@ -38,7 +39,7 @@
                     <p class="cover-product-name">JEAN PAUL GAULTIER le beau</p>
                     <div class="cover-product-meta">
                         <p class="cover-product-price">от 9 996 ₽</p>
-                        <img src="/images/rating.png" alt="" />
+                        <img src="/images/index-img/rating-black.png" alt="" />
                     </div>
                     <p class="cover-product-description">
                         Аромат Le Beau обладает особой харизмой. Особую теплоту и притягательность ему придают ноты
@@ -46,7 +47,6 @@
                     </p>
                     <button class="cover-product-btn">Заказать</button>
                 </div>
-            </div>
         </section>
         <section class="hits container" id="hits">
             <h2>Ароматы лета</h2>
@@ -166,11 +166,11 @@
             <img src="/images/main-img/logo.svg" alt="">
             <div class="footer-nav">
                 <div class="footer-nav-menu">
-                    <a href="/" class="no-dec">
+                    <a href="/index.html" class="no-dec">
                         <p class="footer-nav-label">Главная</p>
                     </a>
                     <a href="#hits" class="no-dec">
-                        <p class="footer-nav-menu-item">Сезон</p>
+                        <p class="footer-nav-menu-item">Хиты</p>
                     </a>
                     <a href="#about-us" class="no-dec">
                         <p class="footer-nav-menu-item">О нас</p>
@@ -183,8 +183,14 @@
                     </a>
                 </div>
                 <div class="footer-nav-menu">
-                    <a href="" class="no-dec">
+                    <a href="/catalog.html" class="no-dec">
                         <p class="footer-nav-label">Каталог</p>
+                    </a>
+                    <a href="/catalog.html#hits" class="no-dec">
+                        <p class="footer-nav-menu-item">Хиты</p>
+                    </a>
+                    <a href="/catalog.html#catalog" class="no-dec">
+                        <p class="footer-nav-menu-item">Товары</p>
                     </a>
                 </div>
             </div>

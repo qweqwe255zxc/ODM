@@ -61,113 +61,17 @@
     border-radius: 15px;
     border: none;
     cursor: pointer;
-    transition: 0.2s;
+    transition: all 0.3s ease;
 }
 
 .cover-product-btn:hover {
     background-color: #333;
-    transition: 0.2s;
+    transition: all 0.3s ease;
 }
 
 .cover-product-btn:active {
     background-color: #222;
     transition: 0.2s;
-}
-
-.hits {
-    margin-top: 170px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-.hits-content {
-    margin-top: 30px;
-    display: flex;
-    flex-direction: row;
-    column-gap: 25px;
-}
-
-.main-hit {
-    display: flex;
-    flex-direction: column;
-    row-gap: 5px;
-}
-
-.minor-hit {
-    display: flex;
-    flex-direction: column;
-    row-gap: 11px;
-}
-
-.minor-hit-item {
-    display: flex;
-    flex-direction: column;
-    row-gap: 5px;
-}
-
-.main-hit-product {
-    height: 850px;
-    width: 850px;
-    background-color: #C0C0C0;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.add-to-bag-btn {
-    width: 60px;
-    height: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    right: 10px;
-    bottom: 10px;
-    background-color: rgba(0, 0, 0, 0%);
-    border: 1px solid black;
-    transition: 0.2s;
-    cursor: pointer;
-}
-
-.add-to-bag-btn:hover {
-    background-color: rgba(0, 0, 0, 10%);
-    transition: 0.2s;
-}
-
-.add-to-bag-btn:active {
-    background-color: rgba(0, 0, 0, 5%);
-    transition: 0.2s;
-}
-
-.add-to-bag-img {
-    width: 40px;
-    height: 40px;
-}
-
-.product-price {
-    font-size: 20px
-}
-
-.minor-hit-product {
-    width: 390px;
-    height: 390px;
-    background-color: #C0C0C0;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.hits-more {
-    align-self: flex-start;
-    margin-left: 90px;
-    margin-top: 10px;
-}
-
-.hits-more-text {
-    font-weight: 300;
 }
 
 .about-us {
@@ -196,26 +100,28 @@
     row-gap: 25px;
 }
 
-.pay-and-delivery{
+.pay-and-delivery {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 120px;
 }
 
-.pay-and-delivery-content{
+.pay-and-delivery-content {
     display: flex;
     flex-direction: row;
     align-items: center;
     margin: 43px;
     column-gap: 45px;
 }
-.pay-and-delivery-block{
+
+.pay-and-delivery-block {
     display: flex;
     flex-direction: column;
     row-gap: 50px;
 }
-.pay-and-delivery-block-item{
+
+.pay-and-delivery-block-item {
     display: flex;
     flex-direction: column;
     row-gap: 25px;
@@ -232,7 +138,8 @@
     align-items: center;
     justify-content: center;
 }
-.contacts-content{
+
+.contacts-content {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -240,17 +147,19 @@
     column-gap: 42px;
 }
 
-.contacts-text{
+.contacts-text {
     display: flex;
     flex-direction: column;
     align-items: center;
     row-gap: 40px;
 }
-.contacts-text-item{
+
+.contacts-text-item {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.contacts-info{
+
+.contacts-info {
     font-size: 24px;
 }
